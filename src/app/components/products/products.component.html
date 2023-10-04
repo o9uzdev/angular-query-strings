@@ -1,0 +1,11 @@
+<p>products works!</p>
+
+<div *ngIf="this.productId">
+  product id:{{ productId }}
+  <p *ngIf="page">page: {{ page }}</p>
+  <p *ngIf="size">size: {{ size }}</p>
+</div>
+
+<div *ngIf="!this.productId">
+  All products are shown.
+</div>
